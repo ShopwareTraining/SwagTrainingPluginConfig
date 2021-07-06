@@ -1,8 +1,11 @@
 {
-  "name": "swag-training/plugin-config",
+  "name": "swag-training/shopware6-plugin-config",
   "description": "Example of plugin configuration",
   "type": "shopware-platform-plugin",
   "license": "MIT",
+  "require": {
+    "shopware/core": "^6.4"
+  },
   "autoload": {
     "psr-4": {
       "SwagTraining\\PluginConfig\\": "src/"
@@ -11,7 +14,8 @@
   "extra": {
     "shopware-plugin-class": "SwagTraining\\PluginConfig\\SwagTrainingPluginConfig",
     "label": {
-      "en-GB": "Example of plugin configuration"
+      "en-GB": "Example of plugin configuration",
+      "de-DE": "Beispiel für Plugin Konfiguration"
     }
   }
 }
